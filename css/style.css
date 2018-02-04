@@ -12,6 +12,7 @@ html {
 body {
     min-height: 100vh;
     font-family: 'Open Sans', helvetica, arial, sans-serif;
+	 font-weight: 200;
     color: #000;
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -340,7 +341,7 @@ main h1 > a {
 	font-size: 0;
 	width: 100%;
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 .grid-cell {
@@ -365,7 +366,7 @@ main h1 > a {
 	bottom: 0;
 	width: 100%;
     cursor:default;
-	
+
 }
 .caption h3 {
 	position: absolute;
@@ -403,7 +404,7 @@ img.img-responsive {
 
 @media screen and (min-width: 480px) {
 
-    
+
 	.grid-cell {
 		position: relative;
 		top: 0;
@@ -412,14 +413,14 @@ img.img-responsive {
 		width: 50%;
 		display: inline-block;
 		height: auto;
-        
-        
+
+
 	}
 }
 
 
 @media screen and (min-width: 1028px) {
-    
+
 
     /.header-container {
         position: fixed;
@@ -467,10 +468,10 @@ img.img-responsive {
         color: rgba(225,58,114, 1);
         text-transform:uppercase;
     }
-    
-    
-    
-    
+
+
+
+
     .grid-cell {
         position: relative;
         top: 0;
@@ -494,18 +495,3 @@ img.img-responsive {
         height: auto;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
